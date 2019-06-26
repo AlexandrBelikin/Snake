@@ -4,7 +4,7 @@
 #include <string.h>
 #include <ncurses.h>
 
-///////////////////////////////////////////////// MAP
+
 const int WIDHT = 29, HEIGHT = 20;
 
 const char MAP[20][30] =
@@ -33,7 +33,7 @@ const char MAP[20][30] =
 
 char map[20][30];
 
-///////////////////////////////////////////////// GLOBAL VARIABLES
+
 bool isWork;
 
 struct position
